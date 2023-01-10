@@ -20,7 +20,7 @@ ul {
     gap: 30px;
 }
 
-header {
+.top {
     display: flex;
     height: 100px;
     justify-content: space-around;
