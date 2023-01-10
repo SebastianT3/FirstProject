@@ -1,3 +1,5 @@
+/* SECTION 1 */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -49,11 +51,11 @@ ul {
     margin-right: 100px;
 }
 
-h1 {
+.content-left h1 {
     font-size: 48px;
     font-weight: bolder;
 }
-h4 {
+.header1 h4 {
     font-size: 24px;
     color: white;
 }
@@ -72,4 +74,28 @@ button {
     width: 90px;
     margin-top: 15px;
     border-radius: 12px;
+}
+/* END OF SECTION 1 */ 
+
+/* START OF SECTION 2 */ 
+
+.main2 {
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+}
+
+.header2 {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    border: ;
+}
+.subtext {
+    display: flex;
 }
