@@ -65,7 +65,7 @@ ul {
     color: #E5E7EB;
     line-height: 24px;
 }
-button {
+.content-left button {
     color: white;
     font-size: 13px;
     font-weight: 600;
@@ -75,6 +75,8 @@ button {
     margin-top: 15px;
     border-radius: 12px;
 }
+
+
 /* END OF SECTION 1 */ 
 
 /* START OF SECTION 2 */ 
@@ -90,12 +92,34 @@ button {
     height: 100px;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .cards {
     display: flex;
-    border: ;
+    height: 350px;
+    gap: 25px;
+
 }
-.subtext {
-    display: flex;
+.button2 button {
+    color: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+
 }
+
+.button2 button:hover {
+    background-color:#507efc;
+    transition: 0.7s;
+}
+
+.button2 p {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    font-size: 12px;
+}
+
+/* END OF SECTION 2 */ 
