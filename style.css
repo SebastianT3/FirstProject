@@ -81,6 +81,10 @@ ul {
     border: 2px solid white;
 }
 
+.content-left button:hover {
+    background-color:#5d3dfe;
+    transition: 0.7s;
+}
 
 /* END OF SECTION 1 */ 
 
@@ -204,6 +208,11 @@ ul {
     font-size: large;
     color: white;
     border-radius: 8px;
+}
+.content-right button:hover {
+    transition: 0.7s;
+    border: 4px solid #5d3dfe;
+    color: #2800f2;
 }
 
 .footer {
