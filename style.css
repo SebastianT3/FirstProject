@@ -71,13 +71,14 @@ ul {
 }
 .content-left button {
     color: white;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: large;
+    font-weight: 500;
     background-color: #3882F6;
     height: 30px;
     width: 90px;
     margin-top: 15px;
     border-radius: 12px;
+    border: 2px solid white;
 }
 
 
